@@ -1,0 +1,30 @@
+{
+    "name": "event_bus",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest -c ./jest.config.json",
+        "run": "ts-node src/index.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/woodgear/event_bus.git"
+    },
+    "author": "wg",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/woodgear/event_bus/issues"
+    },
+    "homepage": "https://github.com/woodgear/event_bus#readme",
+    "devDependencies": {
+        "@types/jest": "^25.2.1",
+        "jest": "^25.5.4",
+        "ts-jest": "^25.4.0",
+        "ts-node": "^8.10.1",
+        "typescript": "^3.8.3"
+    },
+    "dependencies": {
+        "puppeteer": "^3.0.2"
+    }
+}
